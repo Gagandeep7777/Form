@@ -18,7 +18,7 @@ function App() {
       return { ...prev, [name]: value }
     })
 
-  };
+  };                                                                       
 
 
   const handleSubmit = (e) => {
@@ -28,9 +28,6 @@ function App() {
     }
 
   }
-
-
-
 
   return (
     <>
@@ -68,5 +65,5 @@ function App() {
     </>
   );
 }
-
 export default App
+
